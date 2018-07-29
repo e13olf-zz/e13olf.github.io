@@ -12,7 +12,7 @@
 		width:750px;
 		margin-left:auto;
 		margin-right:auto;
-		margin-top:50px;
+		margin-top:100px;
 		font-size:14px;
 	}
 	a {
@@ -37,7 +37,7 @@
 	text: null,
 	accessCountimer:null,
 	index:0, // current cursor position
-	speed:1, // speed of the Typer
+	speed:, // speed of the Typer
 	file:"", //file, must be setted
 	accessCount:0, //times alt is pressed for Access Granted
 	deniedCount:0, //times caps is pressed for Access Denied
@@ -138,7 +138,7 @@ function replaceUrls(text) {
 	return text
 }
 }
-Typer.speed=1;
+Typer.speed=3;
 Typer.file="intro.txt";
 Typer.init();
  
@@ -151,10 +151,9 @@ function t() {
 }
  
 </script> 
-
 <div id="console"><span id="a">[root@e13olf]</span><span id="b"></span><span id="c">#</span> cat intro.txt <br>
 Handle: <a href="https://twitter.com/e13olf">@e13olf</a><br>Blog: <a href="http://www.e13olf.me">e13olf.me</a><br>
-<p style="text-align:center">The arch type of ravin, the beast of waste & desolation </p>
+                <p style="text-align:center">The arch type of ravin, the beast of waste & desolation </p>
 <font color="WHITE">
 <pre>.....---:::::::::://///+////:///::::----://::::+++syhdmmmmdddmNNmmdhyys/---...................
 `....-------:::::::///////:::::::---------:--:////oyhmNNNmmddmmmmddhhys/:-:--.................``````
