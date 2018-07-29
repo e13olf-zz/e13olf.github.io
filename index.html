@@ -37,7 +37,7 @@
 	text: null,
 	accessCountimer:null,
 	index:0, // current cursor position
-	speed:2, // speed of the Typer
+	speed:1, // speed of the Typer
 	file:"", //file, must be setted
 	accessCount:0, //times alt is pressed for Access Granted
 	deniedCount:0, //times caps is pressed for Access Denied
@@ -138,7 +138,7 @@ function replaceUrls(text) {
 	return text
 }
 }
-Typer.speed=3;
+Typer.speed=1;
 Typer.file="intro.txt";
 Typer.init();
  
